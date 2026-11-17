@@ -37,4 +37,4 @@ Majority-class baseline (always predict "attended"): 0.903.
 - Some cells re-split the training data, so test sets are not identical across models.
 
 ## How to run
-How to run: “Place the CSV in the Colab working directory (/content/) and run all cells. 
+The dataset contains patient-level records and is not distributed with this repository, so the notebook cannot be run end to end without access to it. With the CSV obtained from the data owner (course instructor), upload it to the Colab working directory as `/content/Medical-appointments-no-show-en.csv`, install the libraries in `requirements.txt`, and run all cells.
